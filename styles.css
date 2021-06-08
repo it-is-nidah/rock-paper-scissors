@@ -5,6 +5,10 @@
     box-sizing: border-box;
 }
 
+body {
+    background-color: #24272e;
+}
+
 header {
     background: #ffffff;
     padding: 20px;
@@ -16,6 +20,14 @@ header > h1 {
     font-family: 'Baloo Tammudu 2', cursive;
 }
 
-body {
-    background-color: #24272e;
+.score-board {
+    border: 3px solid white;
+    border-radius: 5px;
+    width: 200px;
+    margin: 20px auto;
+    padding: 15px 20px;
+    color: white;
+    font-size: 46px;
+    text-align: center;
+    font-family: 'Baloo Tammudu 2', cursive;
 }
