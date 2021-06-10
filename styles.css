@@ -6,7 +6,9 @@
 }
 
 body {
+
     background-color: #060f22;
+
 }
 
 header {
@@ -70,10 +72,6 @@ header > h1 {
     display: flex;
     justify-content: space-around;
 }
-
-
-
-
 
 
 
