@@ -6,7 +6,9 @@
 }
 
 body {
-    background-color: #24272e;
+
+    background-color: #060f22;
+
 }
 
 header {
@@ -15,19 +17,68 @@ header {
 }
 
 header > h1 {
-    color: #24272e;
+    color: #060f22;
     text-align: center;
     font-family: 'Baloo Tammudu 2', cursive;
 }
 
 .score-board {
+    margin: 20px auto;
     border: 3px solid white;
     border-radius: 5px;
+    text-align: center;
     width: 200px;
-    margin: 20px auto;
     padding: 15px 20px;
     color: white;
     font-size: 46px;
-    text-align: center;
+    font-family: 'Baloo Tammudu 2', cursive;
+    position: relative;
+}
+
+.badge {
+    /* display: flex;
+    align-items: center;
+    align-self: center; */
+    background-color: #e2584d;
+    font-size: 13px;
+    padding: 5px 8px;
     font-family: 'Baloo Tammudu 2', cursive;
 }
+
+#user-label {
+    position: absolute;
+    top: 50px;
+    left: -25px;
+}
+
+#computer-label {
+    position: absolute;
+    top: 50px;
+    right: -25px;
+}
+
+.result {
+    font-size: 40px;
+    color: white;
+}
+
+.result > p {
+    text-align: center;
+    font-family: 'Baloo Tammudu 2', cursive;
+    font-weight: bold;
+}
+
+.choices {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+
+
+
+
+
+
+
