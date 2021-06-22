@@ -32,6 +32,13 @@ header > h1:hover {
     color: white;
 }
 
+p {
+    color: whitesmoke;
+    text-align: center;
+    font-size: xx-large;
+    font-family: 'Baloo Tammudu 2', cursive;
+}
+
 .score-board {
     margin: 20px auto;
     border: 3px solid white;
@@ -78,11 +85,12 @@ header > h1:hover {
 .choices {
     display: flex;
     justify-content: space-evenly;
+    transition: all 0.9s ease;
 }
 
 .choice:hover {
     cursor: pointer;
-
+    background: #080114;
 }
 
 
